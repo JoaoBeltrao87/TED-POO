@@ -1,4 +1,4 @@
-class Empregados {
+class Empregado {
 
     private double matricula;
     private String nome;
@@ -6,7 +6,7 @@ class Empregados {
     private double salarioComissao;
     private double salarioComissaoeFixo;
 
-    public Empregados(double matricula, String nome, int CPF, double salarioComissao, double salarioComissaoeFixo) {
+    public Empregado(double matricula, String nome, int CPF, double salarioComissao, double salarioComissaoeFixo) {
 
     this.matricula = matricula;
     this.nome = nome;
